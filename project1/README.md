@@ -43,8 +43,8 @@
 
 3. Set up a virtualenv for this project
 
-		$ virtualenv project1-storing-storm-data
-		$ cd project1-storing-storm-data
+		$ virtualenv venv-proj1
+		$ cd venv-proj1
 		$ source bin/activate
 
 4. Install psycopg2
