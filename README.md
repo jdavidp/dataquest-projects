@@ -5,3 +5,4 @@ This repo contains the projects I completed as part of Dataquest's Data Engineer
 Every project has its own README with specifics regarding that project.
 
 ### Project 1: Storing Storm Data
+### Project 2: Optimizing Dataframes and Processing in Chunks
