@@ -13,9 +13,10 @@ Practice working with chunked dataframes in Pandas and optimizing a dataframe's 
 		$ cd venv-proj2
 		$ source bin/activate
 
-2. Install jupyter
+2. Install jupyter and pandas
 
 		$ pip3 install jupyter
+		$ pip3 install pandas
 
 3. Start the jupyter notebook server
 
