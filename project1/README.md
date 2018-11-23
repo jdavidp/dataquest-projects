@@ -64,3 +64,5 @@
 6. Install requests
 
 		$ pip3 install requests
+
+	- **Note**: If you see a security vulnerability alert on GitHub regarding the version of the Requests package, make sure to update the package to a safe version.
