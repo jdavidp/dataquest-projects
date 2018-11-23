@@ -22,14 +22,18 @@ cursor.execute("""
         shape_length decimal(8, 6)
     );
 
+    DROP GROUP IF EXISTS basic_analysts;
     CREATE GROUP basic_analysts WITH NOLOGIN;
     REVOKE ALL ON hurricanes FROM basic_analysts;
     GRANT SELECT ON hurricanes TO basic_analysts;
+    DROP USER IF EXISTS john;
     CREATE USER john WITH PASSWORD 'johns_strong_password' IN GROUP basic_analysts;
-
+    
+    DROP GROUP IF EXISTS super_analysts;
     CREATE GROUP super_analysts WITH NOLOGIN;
     REVOKE ALL ON hurricanes FROM super_analysts;
     GRANT SELECT, INSERT, UPDATE ON hurricanes TO super_analysts;
+    DROP USER IF EXISTS bob;
     CREATE USER bob WITH PASSWORD 'bobs_strong_password' IN GROUP super_analysts;
 """)
 
