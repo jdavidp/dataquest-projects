@@ -6,3 +6,4 @@ Every project has its own README with specifics regarding that project.
 
 ### Project 1: Storing Storm Data
 ### Project 2: Optimizing Dataframes and Processing in Chunks
+### Project 3: Analyzing Startup Fundraising Deals from Crunchbase 
